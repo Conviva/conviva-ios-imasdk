@@ -1,0 +1,6 @@
+framework module ConvivaIMASDK {
+  umbrella header "ConvivaIMASDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
