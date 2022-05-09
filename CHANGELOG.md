@@ -1,5 +1,8 @@
 # Changelog
 
+## 4.0.2 (09/05/2022)
+* Improved playstate reporting logic in background/foreground scenarios.
+
 ## 4.0.1 (08/12/2021)
 * Fixed framework,framework name and isLive auto reporting issue in ASF scenarios.
 * Avoiding duplicate ad sessions incase of ASF
