@@ -1,5 +1,10 @@
 # Changelog
 
+## 4.0.3 (20/10/2022)
+* Supports iOS 16
+* Supports Google IMA SDK iOS version 3.16.3 & tvOS version 4.6.1
+* Supports iOS Core SDK 4.0.30
+
 ## 4.0.2 (09/05/2022)
 * Improved playstate reporting logic in background/foreground scenarios.
 
