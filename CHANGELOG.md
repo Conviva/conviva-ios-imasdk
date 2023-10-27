@@ -1,6 +1,6 @@
 # Changelog
 
-## 4.0.5 (09/10/2023)
+## 4.0.5 (27/10/2023)
 * Supports iOS/tvOS 17
 * Supports Google IMA SDK iOS version 3.19.1 & tvOS version 4.9.1
 * Supports iOS Core SDK 4.0.40
