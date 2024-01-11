@@ -3,32 +3,32 @@
 import PackageDescription
 
 let package = Package(
-    name: "ConvivaBrightcove",
+    name: "ConvivaIMASDK",
     platforms: [
         .iOS(.v12)
     ],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
-            name: "ConvivaBrightcove",
-            targets: ["ConvivaBrightcoveTarget"])
+            name: "ConvivaIMASDK",
+            targets: ["ConvivaIMASDKTarget"])
     ],
     targets: [
         .binaryTarget(
-            name: "ConvivaBrightcove",
-            url: "https://github.com/sandeep-madineni/ConvivaLibs/raw/1.0.2/ConvivaBrightcove/ConvivaBrightcove.xcframework.zip",
-            checksum: "22982beb9c587ae0fcbc7cf2e90c532e3572f99a1ee04b1d767e558a84fa24c2"),
+            name: "ConvivaIMASDK",
+            url: "https://github.com/Conviva/conviva-ios-imasdk/raw/4.0.7/Framework/ConvivaIMASDK.xcframework.zip",
+            checksum: "a90e6c006358f79d8ada3187305cdf590baba39ca0194023f480f83ddb8efd14"),
         
-//        .binaryTarget(
-//            name: "ConvivaSDK",
-//            url: "https://github.com/sandeep-madineni/ConvivaLibs/raw/1.0.0/ConvivaSDK/ConvivaSDK.xcframework.zip",
-//            checksum: "2b53aded747578bb7b5cb5832f47590130b59c1a0b65996977380c6988a789f9"),
+        .binaryTarget(
+                name: "ConvivaSDK",
+                url: "https://github.com/Conviva/ConvivaSDK/raw/4.0.43/Framework/ConvivaSDK.xcframework.zip",
+                checksum: "a62100f18feaacb6ea6bbf99d9a50ecf87ed60d605de304bce743d13e2e0cbe0"),
 
         .target(
-              name: "ConvivaBrightcoveTarget",
+              name: "ConvivaIMASDKTarget",
               dependencies: [
                 //.target(name: "ConvivaSDK"),
-                .target(name: "ConvivaBrightcove")
+                .target(name: "ConvivaIMASDK")
               ],
               path: "PlatformExcludes"
             )

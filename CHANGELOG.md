@@ -1,5 +1,10 @@
 # Changelog
 
+## 4.0.7 (01/11/2024)
+* Privacy manifest file support is added.
+* Does not collect Advertising Identifier to comply with Apple guide lines.
+* Supports iOS Core SDK 4.0.43
+
 ## 4.0.5 (27/10/2023)
 * Supports iOS/tvOS 17
 * Supports Google IMA SDK iOS version 3.19.1 & tvOS version 4.9.1
